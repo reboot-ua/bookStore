@@ -1,0 +1,34 @@
+.app-footer {
+    width: 100%;
+    height: 45px;
+    background-color: #181e2c;
+}
+.inline-block {
+    display: inline-block;
+}
+.float-right {
+    float: right;
+}
+.question-mark {
+    width: 55px;
+    height: 45px;
+    background: url("img/question_mark.png") #1f2637 no-repeat center center;
+}
+.settings-mark {
+    width: 55px;
+    height: 45px;
+    background: url("img/seting_mark.png") #15a4fa no-repeat center center;
+}
+.app-header {
+    width: 100%;
+    height: 45px;
+    background-color: #2f364a;
+}
+.user-online-bg {
+    width: 158px;
+    height: 45px;
+    background-color: #15a4fa;
+}
+
+
+
