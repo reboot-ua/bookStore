@@ -63,3 +63,12 @@ a {
 .content {
     width: 100%;
 }
+.ul {
+    margin: 0;
+    padding: 4px;
+}
+.li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
