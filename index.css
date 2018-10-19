@@ -66,3 +66,61 @@ a {
 .app-header ul li:first-child {
     list-style: none;
 }
+.inlineList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*list-style: none;*/
+    margin: 10px;
+    white-space: nowrap;
+}
+.logout-panel {
+    width: 200px;
+    height: 120px;
+    background-color: #1f2637;
+}
+.add-btn {
+    width: 160px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #f2795a;
+}
+button {
+    margin: 0 auto;
+    position:relative;
+    top:30%;
+    left:10%;
+}
+.button-name {
+    width: 86px;
+    height: 10px;
+    /*font-family: ProximaNova;*/
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.btn_plas {
+    width: 13px;
+    height: 13px;
+    object-fit: contain;
+    /*font-family: FontAwesome;*/
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.sidebar-bg {
+    width: 200px;
+    height: 500px;
+    background-color: #1f2637;
+}
+
