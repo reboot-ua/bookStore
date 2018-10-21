@@ -80,17 +80,26 @@ ul {
 }
 
 .content {
-    width: 100%;
+    margin-left: 200px;
 }
 
 .content-header {
     height: 70px;
     background-color: #eef1f7;
-    border-bottom: #dadfes;
+    border-bottom: #dadfea 1px solid;
     color: #444c63;
     font-size: 22px;
     line-height: 70px;
     padding-left: 23px;
+}
+
+.content-search {
+    height: 49px;
+    background-color: #eef1f7;
+    border-bottom: #dadfea 1px solid;
+    line-height: 49px;
+    font-size: 12px;
+    color: #8c97b2;
 }
 
 .logout-panel {
