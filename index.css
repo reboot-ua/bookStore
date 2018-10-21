@@ -1,7 +1,6 @@
 a {
     text-decoration: none;
 }
-
 .app-footer {
     width: 100%;
     height: 45px;
@@ -61,11 +60,30 @@ a {
     width: 200px;
 }
 .content {
-    width: 100%;
+    width: 85%;
+    margin: 0 200px;
 }
 .app-header ul li:first-child {
     list-style: none;
 }
+.navigation-list {
+    list-style: none;
+}
+.now-reading {
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #78829d;
+}
+.ico-nowreading {
+    background: url("img/New_reading.png") no-repeat;
+    padding-left: 20px;
+}
+.
 .inlineList {
     display: flex;
     flex-direction: row;
@@ -90,6 +108,7 @@ button {
     position:relative;
     top:30%;
     left:10%;
+    border: none;
 }
 .button-name {
     width: 86px;
@@ -123,4 +142,37 @@ button {
     height: 500px;
     background-color: #1f2637;
 }
-
+ul.hr {
+    margin: 0;
+    padding: 4px;
+}
+ul.hr li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+.Browse-Available-Books {
+    width: 230px;
+    height: 15px;
+    /*font-family: ProximaNova;*/
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #444c63;
+}
+.search-style {
+    width: 400px;
+    height: 32px;
+    border-radius: 15.5px;
+    border: solid 1px rgba(140, 151, 178, 0.4);
+    background-color: #ffffff;
+}
+.top-panel-bg {
+    width: 1120px;
+    height: 70px;
+    background-color: #eef1f7;
+}

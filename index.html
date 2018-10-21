@@ -6,8 +6,8 @@
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <header class="app-header">
-    <div class="inline-block">
-        <span class="app-title">MyBookApp</span>
+    <div class="inline-block" >
+        <span class="app-title" style="position:absolute;">MyBookApp</span>
     </div>
     <div class="float-right">
         <div class="inline-block">
@@ -38,7 +38,7 @@
         </div>
         <div class="sidebar-bg">
             <div>
-                <ul>
+                <ul class="navigation-list now-reading">
                     <li>Now Reading</li>
                     <li>Brouse</li>
                     <li>Buy Books</li>
@@ -48,7 +48,7 @@
                 </ul>
             </div>
             <div>
-                <ul>
+                <ul class="now-reading">
                     <li>Must Read Titles</li>
                     <li>Best Of List</li>
                     <li>Classic Novels</li>
@@ -64,17 +64,16 @@
         </div>
     </div>
     <div class="content" style="background-color: green">
-        <div>Book</div>
+        <div class="top-panel-bg">Browse Available Books</div>
         <div>
-            <ul class="ul">
+            <ul class="ul hr" style="list-style: none; display: inline-flex">
                 <li class="li">Must Read Titles</li>
                 <li class="li">Best Of List</li>
                 <li class="li">Classic Novels</li>
                 <li class="li">Non Fiction</li>
             </ul>
-            <input placeholder="Enter keywords "/>
+            <input class="search-style" placeholder="Enter keywords "/>
         </div>
-        <div>all</div>
     </div>
 </body>
 <footer class="app-footer">
