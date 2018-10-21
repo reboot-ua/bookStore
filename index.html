@@ -6,61 +6,61 @@
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <header class="app-header">
-    <div class="inline-block" >
-        <span class="app-title" style="position:absolute;">MyBookApp</span>
+    <div class="justify-center float-left">
+        <span class="app-title">MyBookApp</span>
     </div>
-    <div class="float-right">
-        <div class="inline-block">
+    <div class="justify-center float-right">
+        <div class="">
             <ul class="inlineList">
                 <li>Help Center</li>
                 <li>Our Support</li>
             </ul>
         </div>
-        <a class="user-settings inline-block" href="#">
+        <div class="">
+        <a class="user-settings justify-center" href="#">
             <div class="justify-center">
                 <img class="user-avatar" src="img/avatar.png" />
                 <span class="user-name">John Doe</span>
                 <img src="img/arrow_down.png" />
             </div>
         </a>
+        </div>
     </div>
 </header>
 <body>
-    <div class="navigation" style="background-color: red">
-        <div class="logout-panel">
+    <div class="navigation">
+        <div class="logout-panel nav-border-bot">
             <button class="add-btn">
                 <span class="button-name">
-                    <img class="btn_plas" src="img/btn_plus.png">
+                    <img class="add-book-btn" src="img/btn_plus.png">
                     ADD A BOOK
                 </span>
             </button>
 
         </div>
-        <div class="sidebar-bg">
-            <div>
-                <ul class="navigation-list now-reading">
-                    <li>Now Reading</li>
-                    <li>Brouse</li>
-                    <li>Buy Books</li>
-                    <li>Favourite Books</li>
-                    <li>Wishlist</li>
-                    <li>History</li>
-                </ul>
-            </div>
-            <div>
-                <ul class="now-reading">
-                    <li>Must Read Titles</li>
-                    <li>Best Of List</li>
-                    <li>Classic Novels</li>
-                    <li>Non Fiction</li>
-                </ul>
-             </div>
-            <div>
-                <ul>
-                    <li>You added Fight Club by Chuck Palahniuk to your Must Read Titles. </li>
-                    <li>You added The Trial by Franz Kafka to your Must Read Titles. </li>
-                </ul></div>
-            </div>
+        <div class="sidebar-bg nav-border-bot nav-border-top">
+            <ul>
+                <li>Now Reading</li>
+                <li>Brouse</li>
+                <li>Buy Books</li>
+                <li>Favourite Books</li>
+                <li>Wishlist</li>
+                <li>History</li>
+            </ul>
+        </div>
+        <div class="sidebar-bg nav-border-bot nav-border-top">
+            <ul>
+                <li>Must Read Titles</li>
+                <li>Best Of List</li>
+                <li>Classic Novels</li>
+                <li>Non Fiction</li>
+            </ul>
+        </div>
+        <div class="sidebar-bg nav-border-top">
+            <ul>
+                <li>You added Fight Club by Chuck Palahniuk to your Must Read Titles. </li>
+                <li>You added The Trial by Franz Kafka to your Must Read Titles. </li>
+            </ul>
         </div>
     </div>
     <div class="content" style="background-color: green">
@@ -78,8 +78,8 @@
 </body>
 <footer class="app-footer">
     <div class="float-right">
-       <a class="question-mark inline-block" href="#"></a>
-       <a class="settings-mark inline-block" href="#"></a>
+        <a class="question-mark inline-block" href="#"></a>
+        <a class="settings-mark inline-block" href="#"></a>
     </div>
 </footer>
 </html>

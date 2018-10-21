@@ -1,27 +1,29 @@
 a {
     text-decoration: none;
 }
-.app-footer {
-    width: 100%;
-    height: 45px;
-    background-color: #181e2c;
+
+ul {
+    margin: 0;
 }
+
 .inline-block {
     display: inline-block;
 }
+
 .float-right {
     float: right;
 }
-.question-mark {
-    width: 55px;
-    height: 45px;
-    background: url("img/question_mark.png") #1f2637 no-repeat center center;
+
+.float-left {
+    float: left;
 }
-.settings-mark {
-    width: 55px;
-    height: 45px;
-    background: url("img/seting_mark.png") #15a4fa no-repeat center center;
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .app-header {
     width: 100%;
     height: 45px;
@@ -51,39 +53,28 @@ a {
     padding-left: 19px;
 
 }
-.justify-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .navigation {
     width: 200px;
+    float: left;
+    background-color: #181e2c;
 }
+
+.navigation li {
+    list-style: none;
+    display: block;
+    height: 100%;
+    padding: 5px 0;
+}
+
+
 .content {
-    width: 85%;
-    margin: 0 200px;
+    width: 100%;
 }
 .app-header ul li:first-child {
     list-style: none;
 }
-.navigation-list {
-    list-style: none;
-}
-.now-reading {
-    font-size: 13px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    text-align: left;
-    color: #78829d;
-}
-.ico-nowreading {
-    background: url("img/New_reading.png") no-repeat;
-    padding-left: 20px;
-}
-.
+
 .inlineList {
     display: flex;
     flex-direction: row;
@@ -103,17 +94,17 @@ a {
     border-radius: 4px;
     background-color: #f2795a;
 }
+
 button {
     margin: 0 auto;
     position:relative;
     top:30%;
     left:10%;
-    border: none;
 }
+
 .button-name {
     width: 86px;
     height: 10px;
-    /*font-family: ProximaNova;*/
     font-size: 12px;
     font-weight: bold;
     font-style: normal;
@@ -123,11 +114,10 @@ button {
     text-align: center;
     color: #ffffff;
 }
-.btn_plas {
+.add-book-btn {
     width: 13px;
     height: 13px;
     object-fit: contain;
-    /*font-family: FontAwesome;*/
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
@@ -138,41 +128,32 @@ button {
     color: #ffffff;
 }
 .sidebar-bg {
-    width: 200px;
-    height: 500px;
     background-color: #1f2637;
 }
-ul.hr {
-    margin: 0;
-    padding: 4px;
+
+.nav-border-top {
+    border-top: #2f364a 1px solid;
+    margin-top: 4px;
 }
-ul.hr li {
-    display: inline;
-    margin-right: 5px;
-    padding: 3px;
+
+.nav-border-bot {
+    border-bottom: #141824 1px solid;
 }
-.Browse-Available-Books {
-    width: 230px;
-    height: 15px;
-    /*font-family: ProximaNova;*/
-    font-size: 22px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.18;
-    letter-spacing: normal;
-    text-align: left;
-    color: #444c63;
+
+.app-footer {
+    width: 100%;
+    height: 45px;
+    background-color: #181e2c;
+    clear: both;
 }
-.search-style {
-    width: 400px;
-    height: 32px;
-    border-radius: 15.5px;
-    border: solid 1px rgba(140, 151, 178, 0.4);
-    background-color: #ffffff;
+
+.question-mark {
+    width: 55px;
+    height: 45px;
+    background: url("img/question_mark.png") #1f2637 no-repeat center center;
 }
-.top-panel-bg {
-    width: 1120px;
-    height: 70px;
-    background-color: #eef1f7;
+.settings-mark {
+    width: 55px;
+    height: 45px;
+    background: url("img/seting_mark.png") #15a4fa no-repeat center center;
 }
