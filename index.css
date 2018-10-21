@@ -207,6 +207,15 @@ ul {
     background: url("img/seting_mark.png") #15a4fa no-repeat center center;
 }
 
-.book-icon {
-
+.book-list {
+    padding: 20px;
 }
+
+.book-icon {
+    display: inline-block;
+}
+
+.book-icon p {
+    margin: 0;
+}
+
