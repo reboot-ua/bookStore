@@ -44,6 +44,7 @@ ul {
     letter-spacing: normal;
     color: #ffffff;
 }
+
 .user-avatar {
     border: solid 2px #eef1f7;
     border-radius: 50%;
@@ -52,6 +53,7 @@ ul {
     background: url("img/app_icon.png") no-repeat;
     padding-left: 19px;
 }
+
 .inlineList {
     display: flex;
     flex-direction: row;
@@ -102,11 +104,38 @@ ul {
     color: #8c97b2;
 }
 
+.content-search ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.content-search ul li {
+    height: 20px;
+    padding: 5px;
+}
+
+.content-search .active {
+    border-radius: 4px;
+    background-color: #15a4fa;
+}
+
+.search-style{
+    float: right;
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 15.5px;
+    border: solid 1px #8c97b2;
+    margin-top: 9px;
+    background: #ffffff url("img/search_icon.png") no-repeat 95%;
+}
+
 .logout-panel {
     width: 200px;
     height: 120px;
     background-color: #1f2637;
 }
+
 .add-btn {
     width: 160px;
     height: 44px;
@@ -131,6 +160,7 @@ ul {
     text-align: center;
     color: #ffffff;
 }
+
 .add-book-btn {
     width: 13px;
     height: 13px;
@@ -169,6 +199,7 @@ ul {
     height: 45px;
     background: url("img/question_mark.png") #1f2637 no-repeat center center;
 }
+
 .settings-mark {
     width: 55px;
     height: 45px;
