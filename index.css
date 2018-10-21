@@ -213,6 +213,19 @@ ul {
 
 .book-icon {
     display: inline-block;
+    padding: 10px;
+    padding-top: 15px;
+    color: #444c63;
+}
+
+.book-icon p {
+    color: #444c63;
+    font-size: 16px;
+}
+
+.book-icon p1 {
+    color: #6f7d95;
+    font-size: 12px;
 }
 
 .book-icon p {
