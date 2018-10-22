@@ -111,8 +111,15 @@ wrapper {
     font-size: 13px;
     color: #78829d;
 }
-.navigation li:hover {
+.navigation .link li:hover {
     background-color: #15a4fa;
+    color: #fff;
+}
+
+.red-bullet::before {
+    content: "\002022";
+    color: red;
+
 }
 
 .content {
@@ -266,14 +273,12 @@ wrapper {
 .book-icon p {
     color: #444c63;
     font-size: 16px;
+    margin: 0;
 }
 
-.book-icon p1 {
+.book-icon span {
     color: #6f7d95;
     font-size: 12px;
 }
 
-.book-icon p {
-    margin: 0;
-}
 
