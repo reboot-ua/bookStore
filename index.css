@@ -2,16 +2,12 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    border-radius: 9.5px;
-    background-color: #97b3ce;
-    height: 20px;
-    padding: 5px 5px 5px 5px;
-    font-size: 12px;
-    color: #ffffff;
+a:visited {
+    color: inherit;
 }
-a:link {
-    color: #8c97b2;
+
+a:hover {
+    color: #fff;
 }
 
 ul {
@@ -95,11 +91,12 @@ ul {
     list-style: none;
     display: block;
     height: 100%;
-    padding: 14px 0;
-    margin-left: 40px;
+    padding: 14px 14px 14px 40px;
     font-size: 13px;
     color: #78829d;
-
+}
+.navigation li:hover {
+    background-color: #15a4fa;
 }
 
 .content {
@@ -124,6 +121,14 @@ ul {
     color: #8c97b2;
 }
 
+.content-search a:hover {
+    border-radius: 9.5px;
+    background-color: #97b3ce;
+    height: 20px;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+}
+
 .content-search ul {
     margin-top: 12px;
     list-style: none;
@@ -133,11 +138,6 @@ ul {
 .content-search ul li {
     height: 20px;
     padding: 5px 5px 0 5px;
-}
-
-.content-search .active {
-    border-radius: 9.5px;
-    background-color: #fffff;
 }
 
 .search-style{
@@ -209,15 +209,13 @@ ul {
     border-bottom: #141824 1px solid;
 }
 
-/*.img-location {*/
-    /*padding: 14px 0;*/
-/*}*/
-
 .img-location img {
     padding-right: 12px;
 }
 
+.img-location li {
 
+}
 
 .app-footer {
     width: 100%;
