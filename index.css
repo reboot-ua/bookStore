@@ -45,19 +45,17 @@ ul {
     height: 45px;
     background-color: #2f364a;
 }
+
 .user-settings {
     padding: 0 15px;
     height: 45px;
     background-color: #15a4fa;
 }
+
 .user-name {
     padding: 0 16px;
     font-family: ProximaNova;
     font-size: 13px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
     color: #ffffff;
 }
 
@@ -65,6 +63,7 @@ ul {
     border: solid 2px #eef1f7;
     border-radius: 50%;
 }
+
 .app-title {
     background: url("img/app_icon.png") no-repeat;
     padding-left: 19px;
@@ -93,7 +92,7 @@ ul {
     margin-right: 20px;
 }
 
-wrapper {
+.wrapper {
     display: table;
 }
 
@@ -107,7 +106,7 @@ wrapper {
     list-style: none;
     display: block;
     height: 100%;
-    padding: 14px 14px 14px 40px;
+    padding: 14px 14px 14px 20px;
     font-size: 13px;
     color: #78829d;
 }
@@ -117,9 +116,31 @@ wrapper {
 }
 
 .red-bullet::before {
-    content: "\002022";
-    color: red;
+    content: "\25CF";
+    color: #e64c66;
+    font-size: 13px;
+    padding-right: 15px;
+}
 
+.yellow-bullet::before {
+    content: "\25CF";
+    color: #ffab00;
+    font-size: 13px;
+    padding-right: 15px;
+}
+
+.blue-bullet::before {
+    content: "\25CF";
+    color: #00bfdd;
+    font-size: 13px;
+    padding-right: 15px;
+}
+
+.purple-bullet::before {
+    content: "\25CF";
+    color: #7874cf;
+    font-size: 13px;
+    padding-right: 15px;
 }
 
 .content {
@@ -142,12 +163,14 @@ wrapper {
     border-bottom: #dadfea 1px solid;
     font-size: 12px;
     color: #8c97b2;
+    padding-left: 15px;
 }
 
-.content-search a:hover {
+.content-search .link-content li:hover {
     border-radius: 9.5px;
     background-color: #97b3ce;
-    height: 20px;
+    color: #fff;
+    height: 17px;
     padding: 5px 5px 5px 5px;
     font-size: 12px;
 }
@@ -234,10 +257,6 @@ wrapper {
 
 .img-location img {
     padding-right: 12px;
-}
-
-.img-location li {
-
 }
 
 .app-footer {
