@@ -3,6 +3,8 @@ html, body {
     margin: 0;
     width: 100%;
     height: 100%;
+    font-family: Proxima Nova;
+
 }
 
 a {
@@ -34,6 +36,30 @@ ul {
     float: left;
 }
 
+.header-bullets {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+.red-bullet-hed::before {
+    content: "\25CF";
+    color: #e76847;
+    font-size: 20px;
+}
+
+.yellow-bullet-hed::before {
+    content: "\25CF";
+    color: #fabf00;
+    font-size: 20px;
+}
+
+.blue-bullet-hed::before {
+    content: "\25CF";
+    color: #52bea6;
+    font-size: 20px;
+}
+
 .justify-center {
     display: flex;
     justify-content: center;
@@ -54,7 +80,6 @@ ul {
 
 .user-name {
     padding: 0 16px;
-    font-family: ProximaNova;
     font-size: 13px;
     color: #ffffff;
 }
@@ -66,14 +91,14 @@ ul {
 
 .app-title {
     background: url("img/app_icon.png") no-repeat;
-    padding-left: 19px;
+    padding-left: 16px;
     font-size: 12px;
     color: #6f7d95;
-    margin-top: 16px;
+    margin-top: 14px;
 }
 
 .fix {
-    margin-top: -31px;
+    margin-top: -29px;
 }
 
 .inlineList {
@@ -100,6 +125,7 @@ ul {
     width: 200px;
     display: table-cell;
     background-color: #181e2c;
+    vertical-align: top;
 }
 
 .navigation li {
@@ -196,6 +222,7 @@ ul {
     margin-top: 9px;
     background: #ffffff url("img/search_icon.png") no-repeat 95%;
     margin-right: 20px;
+    color: #8c97b2;
 }
 
 .logout-panel {
@@ -250,11 +277,16 @@ ul {
     padding-right: 12px;
 }
 
+.text-location {
+    color: #97b3ce;
+}
+
 .app-footer {
     width: 100%;
     height: 45px;
     background-color: #181e2c;
     clear: both;
+    font-size: 0;
 }
 
 .question-mark {
@@ -286,10 +318,10 @@ ul {
     margin: 0;
 }
 
-/*.book-icon span {*/
-    /*color: #6f7d95;*/
-    /*font-size: 12px;*/
-/*}*/
+.author-name {
+    color: #6f7d95;
+    font-size: 12px;
+}
 
 .fas {
     color: #ffab00;
