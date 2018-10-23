@@ -136,6 +136,7 @@ ul {
     font-size: 13px;
     color: #78829d;
 }
+
 .navigation .link li:hover {
     background-color: #15a4fa;
     color: #fff;
@@ -212,7 +213,7 @@ ul {
     padding: 5px 5px 0 5px;
 }
 
-.search-style{
+.search-style {
     float: right;
     width: 400px;
     height: 30px;
@@ -237,9 +238,9 @@ ul {
     border-radius: 4px;
     background-color: #f2795a;
     margin: 0 auto;
-    position:relative;
-    top:30%;
-    left:10%;
+    position: relative;
+    top: 30%;
+    left: 10%;
     border: none;
 }
 
@@ -260,6 +261,7 @@ ul {
     text-align: center;
     color: #ffffff;
 }
+
 .sidebar-bg {
     background-color: #1f2637;
 }
